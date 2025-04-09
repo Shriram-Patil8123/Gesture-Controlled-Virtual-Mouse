@@ -1,35 +1,29 @@
-# Gesture-Controlled-Virtual-Mouse
-🖐️ Gesture Controlled Virtual Mouse Control the computer / Laptop using hand gestures detected through the webcam! This Python project uses MediaPipe, OpenCV, and PyAutoGUI to turn your hand into a virtual mouse — including features like mouse movement, click, volume control, brightness adjustment, and scroll.
+# 🖐️ Gesture-Controlled Virtual Mouse
 
+Control your computer or laptop using **hand gestures** detected through your **webcam**!  
+This Python project turns your hand into a virtual mouse using **MediaPipe**, **OpenCV**, and **PyAutoGUI** — with features like cursor movement, clicks, volume and brightness control, and scrolling.
 
+---
 
-🚀 Features
-👆 Cursor control using index finger
+## 🚀 Features
 
-✌️ Mouse click using index and middle finger together
+- 👆 **Cursor Control** using index finger  
+- ✌️ **Mouse Click** with index and middle fingers  
+- 🔊 **Volume Control** via distance between thumb and index finger  
+- 💡 **Brightness Control** using thumb and pinky gestures  
+- 📜 **Scrolling** using hand gestures  
+- 🎯 Real-time performance with **hand landmark detection** (MediaPipe)
 
-🔊 Volume control using thumb and index finger distance
+---
 
-💡 Screen brightness control with thumb and pinky gesture
+## 🛠️ Tech Stack
 
-📜 Scrolling using hand gestures
-
-🎯 Real-time performance with hand landmark detection (MediaPipe)
-
-
-
-🛠️ Tech Stack
-Python
-
-OpenCV
-
-MediaPipe
-
-PyAutoGUI
-
-pycaw (for volume control)
-
-screen-brightness-control
+- **Python**
+- **OpenCV** – for computer vision
+- **MediaPipe** – for hand landmark detection
+- **PyAutoGUI** – for controlling mouse and screen actions
+- **pycaw** – for volume control
+- **screen-brightness-control** – for adjusting screen brightness
 
 
 
