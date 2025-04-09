@@ -39,33 +39,33 @@ pip install -r requirements.txt
 python "Gesture Mouse.py"
 
 
+## ✨ How It Works
 
-✨ How It Works
-- Uses MediaPipe to detect hand landmarks
-- 
-- Maps finger positions to screen coordinates
-- 
-- Measures finger distance to trigger actions like click, volume, brightness, and scroll
+- 🖐️ Uses **MediaPipe** to detect hand landmarks  
+- 🎯 Maps **finger positions** to screen coordinates  
+- 📏 Measures **finger distances** to trigger actions like:
+  - Mouse click  
+  - Volume control  
+  - Brightness adjustment  
+  - Scrolling  
 
+---
 
+## ⚠️ Requirements
 
-⚠️ Requirements
-A webcam
+- 📸 A functional **webcam**  
+- 🪟 **Windows OS** (for volume & brightness control compatibility)  
+- 🐍 **Python 3.7+**
 
-Windows OS (for volume & brightness control compatibility)
+---
 
-Python 3.7+
+## 🙌 Credits
 
+This project uses the following open-source tools and libraries:
 
-
-🧠 Credits
-MediaPipe
-
-OpenCV
-
-PyAutoGUI
-
-pycaw
-
-screen-brightness-control
+- [MediaPipe](https://google.github.io/mediapipe/)  
+- [OpenCV](https://opencv.org/)  
+- [PyAutoGUI](https://pyautogui.readthedocs.io/)  
+- [pycaw](https://github.com/AndreMiras/pycaw)  
+- [screen-brightness-control](https://pypi.org/project/screen-brightness-control/)
 
